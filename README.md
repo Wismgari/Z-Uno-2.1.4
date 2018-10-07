@@ -6,3 +6,5 @@ You're pointed at the repo to read the source to find additions etc... except th
 So this is a simple repo of the 2.1.4 version installed on my machine so I look at it on machines without Z-Uno installed or in a browser instead of screaming at the filesystem...
 
 https://github.com/Z-Wave-Me/Z-Uno-Core
+
+You're probably here for https://github.com/Wismgari/Z-Uno-2.1.4/blob/master/cores/zuno/ZUNO_Definitions.h ;)
