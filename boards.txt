@@ -1,0 +1,98 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+menu.Frequency=Frequency
+menu.Security=Security
+menu.MuliCommand=Multicommand
+menu.LogOutput=Logging
+menu.NVMClean=Erase NVM
+##############################################################
+zuno.name=Z-Wave>ME Z-Uno
+
+zuno.vid.0=0x0658
+zuno.pid.0=0x0200
+zuno.vid.1=0x0658
+zuno.pid.1=0x0000
+
+zuno.upload.tool=zprog
+zuno.upload.protocol=usb
+zuno.upload.maximum_size=32256
+zuno.upload.maximum_data_size=0
+zuno.upload.speed=115200
+
+zuno.bootloader.tool=zprog
+zuno.bootloader.low_fuses=0xFF
+zuno.bootloader.high_fuses=0xDE
+zuno.bootloader.extended_fuses=0x05
+zuno.bootloader.unlock_bits=0x3F
+zuno.bootloader.lock_bits=0x0F
+zuno.bootloader.file=none
+
+zuno.build.mcu=zuno
+zuno.build.f_cpu=16000000L
+zuno.build.board=zuno
+zuno.build.core=zuno
+zuno.build.variant=
+zuno.build.vid=0x2341
+zuno.build.pid=0x8039
+zuno.build.usb_product="Z-UNO"
+zuno.build.extra_flags=
+
+zuno.menu.Frequency.Ru = Russian
+zuno.menu.Frequency.Eu = Europe
+zuno.menu.Frequency.Us = USA
+zuno.menu.Frequency.In = India
+zuno.menu.Frequency.Il = Israel
+zuno.menu.Frequency.ANz = Australia & New Zealand, Brazil
+zuno.menu.Frequency.Ch = China
+zuno.menu.Frequency.Hk = Hong Kong
+zuno.menu.Frequency.Jp = Japan
+zuno.menu.Frequency.Kr = Korea
+
+
+zuno.menu.Frequency.Ru.build.rf_freq = RU
+zuno.menu.Frequency.Eu.build.rf_freq = EU
+zuno.menu.Frequency.Us.build.rf_freq = US
+zuno.menu.Frequency.In.build.rf_freq = IN
+zuno.menu.Frequency.Il.build.rf_freq = IL
+zuno.menu.Frequency.ANz.build.rf_freq = ANZ
+zuno.menu.Frequency.Ch.build.rf_freq = CN
+zuno.menu.Frequency.Hk.build.rf_freq = HK
+zuno.menu.Frequency.Jp.build.rf_freq = JP
+zuno.menu.Frequency.Kr.build.rf_freq = KR
+
+zuno.menu.Security.Off = Disabled
+zuno.menu.Security.On = S0
+zuno.menu.Security.On2 = S2
+
+zuno.menu.Security.Off.build.security = 0
+zuno.menu.Security.On.build.security = 1
+zuno.menu.Security.On2.build.security = 2
+
+zuno.menu.MuliCommand.Off = Disabled
+zuno.menu.MuliCommand.On = Enabled
+zuno.menu.MuliCommand.Off.build.multicmd = 0
+zuno.menu.MuliCommand.On.build.multicmd = 1
+
+zuno.menu.LogOutput.Off = Disabled
+zuno.menu.LogOutput.Radio = Radio
+zuno.menu.LogOutput.UART0 = UART0
+zuno.menu.LogOutput.RUART = Radio + UART0
+zuno.menu.LogOutput.Off.build.log_mode 		= 0
+zuno.menu.LogOutput.Radio.build.log_mode 	= 1
+zuno.menu.LogOutput.UART0.build.log_mode 	= 2
+zuno.menu.LogOutput.RUART.build.log_mode 	= 3
+
+zuno.menu.NVMClean.Off=Disabled
+zuno.menu.NVMClean.User=User Space
+zuno.menu.NVMClean.System=System Space
+zuno.menu.NVMClean.All=All
+zuno.menu.NVMClean.Off.build.nvm_clean=off
+zuno.menu.NVMClean.User.build.nvm_clean=user
+zuno.menu.NVMClean.System.build.nvm_clean=system
+zuno.menu.NVMClean.All.build.nvm_clean=all
+
+
+
+
+
